@@ -1,4 +1,6 @@
-public class StudentData extends User{
+// allow the StudentData objects to be saved in a file
+import java.io.Serializable;
+public class StudentData extends User implements Serializable {
 
     // ATTRIBUTES
     private int year;
@@ -50,6 +52,7 @@ public class StudentData extends User{
     public String getDepartment(){
         return department;
     }
+
 
     // override method toString() to display the student data:
     @Override

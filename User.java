@@ -1,4 +1,6 @@
-public class User{
+// allow the User objects to be saved in a file
+import java.io.Serializable;
+public class User implements Serializable{
     
     // ATTRIBUTES
     private int id;
