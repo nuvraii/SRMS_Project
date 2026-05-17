@@ -12,7 +12,7 @@ public class SaveThread extends Thread {
         this.students = students;
     }
 
-    // Thread task
+    // Thread taskf
     @Override
     public void run() {
 
@@ -20,4 +20,4 @@ public class SaveThread extends Thread {
 
         System.out.println("Data saved using thread successfully.");
     }
-}s
+}
