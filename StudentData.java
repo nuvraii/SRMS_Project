@@ -61,6 +61,6 @@ public class StudentData extends User implements Serializable {
                 super.toString() +
                 "Year : "+ getYear() + "\n" +
                 "GPA : "+ getGpa() + "\n" +
-                "Department : "+ getDepartment() + "\n" ;
-    }
+                "Department : "+ getDepartment() + "\n" +
+                "_______________________________";    }
 }

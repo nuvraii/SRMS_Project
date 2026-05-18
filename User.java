@@ -56,8 +56,7 @@ public class User implements Serializable{
     // override method toString() to display the user data:
     @Override
     public String toString(){
-        return "---- User Informations ----\n" +
-                "ID : "+ getId() + "\n" +
+        return  "ID : "+ getId() + "\n" +
                 "Name : "+ getName() + "\n" +
                 "Email : "+ getEmailAddress() + "\n" +
                 "Phone Number : "+ getPhoneNumber() + "\n";

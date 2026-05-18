@@ -36,6 +36,7 @@ public class StudentReportGenerator {
 
         if (!found) {
             System.out.println("No students found in this department.");
+            
         }
     }
 
