@@ -29,10 +29,17 @@ public class main{
             System.out.println("9- EXIT");
             System.out.println("please enter the number of the service: ");
 
-            // take the input from the user
-            int service = input.nextInt();
-            input.nextLine();
-
+            // take the input from the user + use exception handling
+            int service;
+            try {
+                service= input.nextInt();
+                input.nextLine();
+            } 
+            catch (Exception err){
+                System.out.println("Invalid input, try again");
+                input.nextLine();
+                continue;
+            }
             // used switch to handle all cases and better performance
             switch (service) {
                 case 1:
